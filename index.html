@@ -1,166 +1,18 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="UTF-8">
-        <title> Como se fazer um ovo?</title>
-     </head>
-     <body>
-         <a href="receitanova.html">
-            <img src="https://media2.giphy.com/media/UX5ovY9QQ1FOpaKtc8/giphy.gif" alt="" width="100">
-        </a>
-         <a href="#frigideira"> Ovos na Frifideira </a> 
-         <a href="#cozido"> Ovos cozidos  </a> 
-         <a href="#forno"> Ovos ao forno  </a> 
-         <a href="#recheado"> Ovos Recheado  </a> 
-         <a href="#mexidos"> Ovos Mexidos</a> 
-         <a href="#poche">Ovos Pochê</a>
-         <a href="#conserva"> Ovos em conserva</a>
-         <a href="#empanado"> Ovos Empanado</a>
-         <a href="#mole"> Ovos Mole</a>
-         <a href="#beneficios"> Beneficios do ovo</a>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Entendendo CSS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Entendendo um pouco mais sobre CSS</h1>
+    <div>  
+        <img class="jango" src="data:image/jpeg;base64,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" alt="">
 
-
-
-         <h1> Como fazer um ovo de 10 formas diferentes</h1>
-          <hr>
-          <small> O ovo é um alimento que utilizamos em muitas receitas. Estam acostumados a fazer receitas mais simples,
-            <br>como omeletes e ovos meximos, mas existem outras maneitas de preparar ovo e deixar sua refeição ainda mais
-            <br>deliciosa!
-            <i>confira abaixo algumas receitas fáceis oara você inovar na hora de consumi-lo:</i>
-          </small>
-          <ol>
-          <li><h2 id="frigideira">Na Frigideira</h2></li>
-          <hr>
-            <ol>
-                <li><b>Para gema mole:</b><small> aqueça uma frigideria com óleo, em fogo médio, quebre o ovo e despeje com
-                    <br> cuidado. Frite por 3 minutos regando a clara com o óleo  </small> </li>
-                    <br>
-                <li><b>Para gema dura:</b><small> quebre o ovo e despeje com cuidado em uma frigideria com óleo quente, em
-                    <br>fogo médio. Frite por 3 minutos, regando a clara e a game com óleo, ou vire o ovo, com cuidado, e
-                    <br>frite do outro lado. </small></li>        
-                </ol>    
-            <img src="https://st1.uvnimg.com/09/58/7818978d439fa508147c04388166/ovos-fritos-frigideira-0123-1400x800.jpg" alt=" Ovo na Frigideira" width="200px">
-        <li><h2 id="cozido">Cozidos</h2></li>
-        <small>Ferva uma panela com água, acrescente os ovos inteiros e cozinhe por 10 minutos. deixe esfriar, retire a casca
-            <br>e temoere a gosto.</small>
-            <br>
-            <img src="https://fyoti.com.br/wp-content/uploads/2020/05/Receita-de-Omelete-de-Forno-com-Lingui%C3%A7a-e-Bacon-F%C3%A1cil.jpg" alt="ovo ao forno" width="200px">
-             
-<li><h2 id="recheado">Recheado</h2></li>
-<small>Cozinhe os ovos inteiros em água fervente por 10 minutos. Descasque, corte ao meio, retire a gema com cuidado e
-        <br>misture com carne moída refogada a gosto. Recheie as claras, cubra com queijo parmesão ralado, leve ao forno médio,
-        <br>preaquecido, até gratinar.</small>
-        <br>
-        <img src="https://www.kitano.com.br/wp-content/uploads/2019/08/SSP_2037-Ovo-com-queijo-branco-coentro-e-salsa-1.jpg" alt="Ovos recheados com queijo Branco" width="200px">
-    <li><h2 id="forno">Ao forno</h2> </li>
-        <small>Quebre os ovos e despeje em tigelinhas de porcelana untadas. Acrescente 2 colheres (sopa) de creme de leite e temperos a gosto.
-        <br> Tampe e leve ao forno médio, preaquecido, em banho-maria, por 7 minutos.</small>
-        <br>
-        <img scr="https://fyoti.com.br/wp-content/uploads/2020/05/Receita-de-Omelete-de-Forno-com-Lingui%C3%A7a-e-Bacon-F%C3%A1cil.jpg" alt="Ovos Cozidos" widgt="200px"> 
-        <li><h2 id="mexidos">Ovos mexidos</h2></li>
-        <small>aqueça uma frigideira com óleo, em fogo médio, e quebre o ovo dentro. Mexa com uma colher até cozinhar. Se desejar, acrescente 
-        <br>arroz cozido no final da fritura do ovo e mexa.</small>
-        <br>
-        <img src="https://i.ytimg.com/vi/i9EQnGCxtmk/maxresdefault.jpg" alt="Ovos Mexidos" width="200px">
-        <table border="2">
-            <tr> 
-                <th> Ingrediente</th>
-                <th> Quantidade</th>
-            </tr>    
-            <tr> 
-                <td> ovos batidos </td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td>colheres (sopa) de Leite Líquido</td>
-                <td> 4 </td>
-            </tr>
-                <td> Colher de Sopa de Óleo</td>
-                <td> 1/5</td>
-            </tr>    
-            <tr>
-                <td> pitada de sal</td>
-                <td> 1 </td>
-            </tr>  
-            <tr>  
-                <td colspan="2">Desenvolvido por Matheus Coutinho</td>
-        </table>
-    <li><h2 id="poche">Ovo pochê</h2></li>
-    <small> Ferva uma panela com bastante água e coloque um pouco de vinagre. Desligue o fogo, quebre o ovo no centro da panela e tampe. 
-        <br>Cozinhe por 3 minutos ou até as claras ficarem opacas.</small>
-        <br>
-        <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-ovo-beneficios-e-receitas-ovo-poche.jpg" alt="Ovo Pochê" width="200px">
-    <li><h2>Suspiro</h2></li>
-    <small>Na batedeira, bata as claras e acrescente 1 colher (sopa) de açúcar para cada clara, batendo até firmar. Se desejar, modele 
-        <br>suspiros e asse por 40 minutos em forno médio, preaquecido. </small>
-        <br>
-        <img scr="https://static.itdg.com.br/images/1200-675/f54de287d31a2d909c223d085db85472/354697-original.jpg" alt="Suspiro" width="200px">
-        <br>
-    <li><h2 id="conserva">Em conserva</h2></li>
-    <small>Cozinhe 3 dúzias de ovos de codorna em água fervente com sal por 5 minutos e descasque. Ferva meio litro de vinagre com sal.
-        <br>Coloque os ovos em um pote de vidro esterilizado, despeje o vinagre quente, folhas de louro e um pouco de azeite. Tampe o 
-        <br>vidro e deixe descansar por 5 dias em local arejado antes de consumir.</small>
-        <br>
-        <img scr="https://i.ytimg.com/vi/ySuFCnWRYRo/maxresdefault.jpg" alt="Ovos de condorna em conserva" width="200px">
-    <li><h2 id="empanado">Ovinho empanado</h2></li>
-    <small>Leve ao fogo médio 2 tomates picados, 1 cebola picada e margarina, mexendo até desmanchar o tomate. Acrescente 2 cubos de caldo 
-        <br>de galinha,cheiro-verde, 2 xícaras (chá) de leite, temperos a gosto e deixe ferver. Acrescente 1 e 1/2 xícara (chá) de farinha 
-        <br>de trigo de uma só vez, mexendo até soltar da panela. Deixe esfriar, sove a massa e abra porções na palma das mãos. Recheie com 
-        <br>1 ovo de codorna cozido. Passe por claras batidas, farinha de rosca e frite até dourar. </small>
-        
-        <img>
-        <table border="2">
-            <tr>
-                <th>Ingredientes </th>
-                <th>Quantidade </th>
-            </tr>
-            <tr>
-                <td>Unidades de Ovos</td>
-                <td> 7 </td>
-            </tr>
-            <tr>
-                <td>Sal a gosto</td> 
-            </tr>
-            <tr>
-                <td>Orégano a gosto</td>
-                </tr>
-            <tr>
-                <td> Pimenta calabresa a gosto</td>
-            </tr>
-            <tr>
-                <td>Xícara de farinha de rosca</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>Gramas de Parmesão Ralado</td>
-                <td>40</td>
-            </tr>
-            <tr>
-                <tb>Farinha de trigo a gosto</tb>
-            </tr>
-            <tr>
-                <td colspan="2">Desenvolvido por Matheus Coutinho</td>
-            </tr>
-            </table> 
-    
-    <li><h2 id="mole">Ovos moles</h2></li>
-    <small>Dissolva 1 e 1/2 xícara (chá) de açúcar em 200ml de água e leve ao fogo baixo, sem mexer, até obter uma calda dourada. Deixe amornar
-        <br>e misture com 8 gemas. Volte ao fogo médio, mexendo até engrossar. Polvilhe com canela em pó antes de servir.</small>
-        <br>
-        <img>
-    </ol>
-    <h3 id="beneficios"><n>Benefícios do ovo para a saúde</n></h3>
-    <p>Ele possui nutrientes importantes para o organismo, como vitamina A, carotenoides (essenciais para a saúde dos olhos), ácido fólico, vitamina E, 
-        <br>vitamina B12 e ômega-3. Além disso, é um dos alimentos que mais possuem proteína em sua composição. Por conter todos estes nutrientes o ovo 
-        <br>ajuda na melhora da memória e da concentração, combate a anemia e garante maior saciedade. Mesmo assim, é importante consumi-lo com moderação
-        <br>e combiná-lo com outros tipos de alimentos.</p>       
-    
-      
-           
-        
-           
-        
+        <img class="jango" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Mapa_do_Brasil_com_a_Bandeira_Nacional.png" alt="">
+    </div>  
     </body>
-
 </html>
-
-       
